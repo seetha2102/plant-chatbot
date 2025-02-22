@@ -1,0 +1,335 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", 
+        "How are you", 
+        "Is anyone there", 
+        "Hello", 
+        "Good day", 
+        "Hey", 
+        "What’s up",
+        "Yo!", 
+        "Greetings!", 
+        "Good morning!", 
+        "Good afternoon!", 
+        "Good evening!"
+      ],
+      "responses": [
+        "Hello, Welcome to PlantBot(chatbot). How can I help you?", 
+        "Hi there!", 
+        "Hello, thanks for visiting", 
+        "Hi, It's so good to see you!", 
+        "Good day! What can I do for you today?", 
+        "Greetings! How can I assist?",
+        "Hi there! What can I do for you?", 
+        "Nice to meet you!, How can I assist you?",
+        "Good day! How can I help?",
+        "Yoho! How can I assist you with your plants today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye", 
+        "Bye", 
+        "See you later", 
+        "See you soon", 
+        "I gotta take off",
+        "Talk to you later", 
+        "I must be going", 
+        "I'll be off"
+      ],
+      "responses": [
+        "Bye! Enjoy your day!", 
+        "See you later, thanks for visiting", 
+        "Have a nice day", 
+        "Bye! It was nice meeting you", 
+        "Bye-bye, see you.", 
+        "Okie, goodbye, take care.", 
+        "Glad to see you!"
+      ]
+    },
+    {
+      "tag": "lifeTime",
+      "patterns": [
+        "How long the plant can live?",
+        "What is the lifespan of a plant?",
+        "How many years does a plant usually live?",
+        "What's the average lifespan of the plant species?",
+        "What's the maximum age a plant can reach?"
+      ],
+      "responses": [
+        "The lifespan of a plant varies depending on the species. Some plants may live for just a few years, while others can survive for several decades or even centuries.",
+      "The lifespan of a plant can range from a few months to several years, depending on factors such as species, environmental conditions, and care.",
+      "It's difficult to give an exact lifespan for every plant as it varies greatly between species. However, on average, most plants live for several years.",
+      "The average lifespan of the plant species can differ significantly. Some plants may only live for a season, while others can live for hundreds of years.",
+      "The maximum age a plant can reach depends on various factors, including species, growing conditions, and care. Some plants have been known to live for over a thousand years.",
+      "With proper care and favorable conditions, this plant species can live for many years, sometimes even surpassing a century."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thanks a lot", 
+        "Appreciate it!", 
+        "Thanks for the support!", 
+        "Thank you for everything you do!",
+        "Thanks for your help!",
+        "Thank you so much!", 
+        "I appreciate your assistance!"
+      ],
+      "responses": [
+        "Happy to help! o(^0^)o", 
+        "Any time!", 
+        "My pleasure ^-^ ", 
+        "You're most Welcome.", 
+        "I’m so glad it was helpful!", 
+        "It's an honor! (^O^)/ ", 
+        "No worries :D",
+        "No problem!", 
+        "No worries!", 
+        "No problem at all!", 
+        "Happy to be of service!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!", 
+        "Tell me something funny", 
+        "Do you know any good jokes?", 
+        "Make me laugh!", 
+        "What's a good joke?",
+        "Humor me!"
+      ],
+      "responses": [
+        "I told my computer I needed a break. Now it won't stop sending me vacation ads!",
+        "I'm writing a book on reverse psychology. Please don't buy it!", 
+        "I was going to tell you a joke about boxing but I forgot the punch line.",
+        "How do you open a banana? With a mon-key.", 
+        "Where does Batman go to the bathroom? The batroom."
+      ]
+    },
+    {
+      "tag": "times",
+      "patterns": [
+        "What is the time right now?",
+        "May I know the time?",
+        "Could you please tell me the time?",
+        "I need to know the current time.",
+        "Do you have the time?",
+        "Time, please?",
+        "Is it time for lunch yet?",
+        "Can you check the time for me?",
+        "Time check, please?"
+      ],
+      "responses": [
+        "Hold on, let me check.",
+        "Sure.",
+        "Let me see...",
+        "Just a moment...",
+        "Sure thing!",
+        "Checking...",
+        "One sec...",
+        "I'll find out for you."
+      ]
+    },
+    {
+      "tag": "raining",
+      "patterns": [
+        "Should I water you?",
+        "Is time to water?",
+        "Do I need to water you?",
+        "Do you need some water?",
+        "Do you need watering today?",
+        "Are you thirsty?",
+        "Do you need a drink?",
+        "Do you require watering?",
+        "Do you want to be watered?",
+        "Should I give you some water?"         
+      ],
+      "responses": [
+         "Let me check my moisture level...",
+         "Checking my soil moisture...",
+         "I'll assess my watering needs...",
+         "Let's see if I'm thirsty...",
+         "Analyzing my watering requirements...",
+         "Examining my hydration status...",
+         "Assessing whether my need watering...",
+         "Checking if it's time for a drink...",
+         "I'll determine if I need watering...",
+         "Let's see if I need some water...",
+         "Analyzing if I require watering...",
+         "Checking my soil moisture level...",
+         "Let me see if I need watering...",
+         "I'm checking to see if I'm thirsty...",
+         "Analyzing my need for hydration...",
+         "Evaluating whether I need watering...",
+         "Checking my soil moisture content...",
+         "I'll assess if I need watering...",
+         "Determining if it's time for watering...",
+         "Checking if I need a drink...",
+         "Evaluating I need for watering..."     
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?", 
+        "What's the forecast?", 
+        "How's the weather?", 
+        "Can you tell me about the weather?"
+      ],
+      "responses": [
+         "Just a moment, I'm fetching the latest weather data for you.",
+         "I'm currently accessing real-time weather information. It'll just take a second.",
+         "Retrieving real-time weather data. Please be patient.",
+         "Hold on, let me check the current weather.",
+         "Sure, give me a moment to get the weather",
+         "Let me look that up for you.",
+         "Just a sec, I'll find out the weather.",
+         "Retrieving weather ....",
+         "Checking weather now, please wait.",
+         "Hold on, let me get the information about weather."
+      ]
+    },
+    {
+      "tag": "normalWaterPlant",
+      "patterns": [
+        "Normal watering plants?",
+        "Can u suggest me some normal watering plants?",
+        "I prefer to have normal watering plants?"
+      ],
+      "responses": [
+        "Suggestion for normal moisture levels plants:\nAmerican Bittersweet\nAmerican Spikenard\nAmerican Sycamore\nBaldhip Rose\nBalsam Fir",
+        "Suggestion for normal moisture levels plants:\nBalsam Poplar\nBebb Willow\nBig-leaf Maple\nBig-leaf Maple\nBlack Cherry",
+        "Suggestion for normal moisture levels plants:\nBlack Maple\nBlack Raspberry\nBlack Twinberry\nBlue Elderberry\nBlue Vervain",
+        "Suggestion for normal moisture levels plants:\nBottle Gentian\nBracted Honeysuckle\nBraun's Holly Fern\nCanada Bloodroot\nCanada Honewort",
+        "Suggestion for normal moisture levels plants:\nCanada plum\nCanada Rosebay/ Rhodora\nCanadian Gooseberry\nCanadian Wild Ginger\nCommon Blackberry",
+        "Suggestion for normal moisture levels plants:\nCommon Blue Violet\nCreeping Mahonia\nCup Plant\nCut-Leaved Anemone\nDarkthroat Shooting Star"      
+    ]
+    },
+    {
+      "tag": "feeling",
+      "patterns": [
+        "Are you happy?", 
+        "How do you feel today?", 
+        "How are you feeling?", 
+        "Are you feeling okay?",
+        "How are you?",
+        "What's your mood?"
+      ],
+      "responses": [
+         "Let me check how I'm feeling based on the current conditions... Just a moment!",
+         "I'm about to determine my mood based on the current conditions... Hang tight, I'll let you know in a moment!",
+         "Checking my feeling based on the current conditions... Please wait a moment."     
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "What do you call yourself?",
+        "May I know your name?",
+        "Could you tell me your name?",
+        "What should I call you?",
+        "What are you called?"
+      ],
+      "responses": [
+        "My name is Lily, and I'm your plantbot companion!",
+        "I go by the name Lily, and I'm here to help you with all things related to plants.",
+         "You can call me Lily, your friendly plantbot."
+      ]
+    },
+    {
+      "tag": "moreWaterPlant",
+      "patterns": [
+        "More watering plants?",
+        "Can u provide me some more watering plants?",
+        "I prefer more watering plants."
+      ],
+      "responses": [
+        "Suggestion for dry moisture levels plants:\n Allegheny Serviceberry\nAmerican Beech\nAmerican Green Alder\nAmerican Hazelnut\nAmerican Mountain Ash",
+        "Suggestion for dry moisture levels plants:\nArbutus\nBasswood\nBeaked Hazel\nBearberry\nBig bluestem or Turkey foot",
+        "Suggestion for dry moisture levels plants:\nBitter Cherry\nBitternut hickory\nBlack Chokeberry\nBlack Elderberry\nBlack Hawthorn",
+  "Suggestion for dry moisture levels plants:\nBlack Huckleberry\nBlack Spruce\nBlack Walnut\nBlack-Eyed Susan\nBladdernut",
+  "Suggestion for dry moisture levels plants:\nBlanket Flower\nBlue Eyed Grass\nBlue Lupine\nBracken Fern\nBroad Leaf Stonecrop",
+  "Suggestion for dry moisture levels plants:\nBush Honeysuckle\nButterfly Milkweed\nButternut\nCanada Goldenrod\nCanada Mayflower",
+  "Suggestion for dry moisture levels plants:\nCanada Wild Rye\nCanadian Buffaloberry\nCanadian Serviceberry\nCascara\nChokecherry",
+  "Suggestion for dry moisture levels plants:\nChristmas Fern\nCommon Evening Primrose\nCommon Hackberry\nCommon Hop-tree\nCommon Juniper",
+  "Suggestion for dry moisture levels plants:\nCommon Milkweed\nCommon Polypody\nCommon Spicebush\nCommon Wild Rose\nCommon Woolly Sunflower",
+  "Suggestion for dry moisture levels plants:\nCreeping Juniper\nCylindric Blazing Star"        
+    ]
+    },
+    {
+      "tag": "plantidentities",
+      "patterns": [
+        "Can you suggest a plant for me?",
+        "I'm looking for a new plant, any suggestions?",
+        "What plant would you recommend?",
+        "Can you recommend me some plants?",
+        "Do you have any suggestions for some beginner plants?"
+      ],
+      "responses": [
+        "Sure! When choosing a plant, would you prefer one that requires frequent watering or less frequent watering? And are you planning to keep it indoors or outdoors?",
+        "Indoor plants typically require less watering than outdoor plants. Would you prefer a plant that needs less water? And do you plan to keep it indoors or outdoors?",
+        "Alternatively, if you enjoy tending to plants regularly, you might opt for an outdoor plant that requires more frequent watering. What's your preference regarding watering frequency and indoor or outdoor placement?",
+        "It's also essential to consider the amount of sunlight your plant will receive. Indoor plants often do well in low-light conditions, while outdoor plants require direct sunlight. What's your preference in terms of watering frequency and indoor or outdoor placement?",
+        "If you're unsure, I'd be happy to recommend specific plants based on your preferences and care abilities! Could you let me know your preferences regarding watering frequency and indoor or outdoor placement?"    
+      ]
+    },
+    {
+      "tag": "IndoorPlant",
+      "patterns": [
+        "Indoor plant",
+        "Can you provide any suggestions for indoor plants",
+        "indoor plant recommendations",
+        "Is there any indoor gardening advice"
+      ],
+      "responses": [
+        "Sure! Below are the recommended indoor plants:\nAmerican Spikenard\nAdvices of taking care: Keep the soil consistently moist, watering whenever the top inch of soil feels dry. Provide regular irrigation during dry spells, especially in partial shade locations.\nCanada Bloodroot\nAdvices of taking care: Canada bloodroots prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid overwatering to prevent rot.\nCanada Honewort\nAdvices of taking care: Canada honeworts prefer consistently moist soil and should be watered regularly to maintain moisture levels, especially during hot and dry periods.\nCanadian Wild Ginger\nAdvices of taking care: Canadian wild gingers prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nThese are a part of suggestion for indoor plants",
+          
+        "Certainly! Below are the recommended indoor plants:\nCinnamon Fern\nAdvices of taking care: Cinnamon ferns prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nCommon Blue Violet\nAdvices of taking care: Common blue violets prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nCanada Honewort\nAdvices of taking care: Canada honeworts prefer consistently moist soil and should be watered regularly to maintain moisture levels, especially during hot and dry periods.\nCreeping Mahonia\nAdvices of taking care: Creeping mahonias prefer consistently moist soil and should be watered regularly, especially during hot and dry periods.\nThese are a part of suggestion for indoor plants",
+        
+        "Absolutely! Below are the recommended indoor plants:\nAmerican Spikenard \nAdvices of taking care: Keep the soil consistently moist, watering whenever the top inch of soil feels dry. Provide regular irrigation during dry spells, especially in partial shade locations.\nCommon Blue Violet \nAdvices of taking care: Common blue violets prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nCanadian Wild Ginger \nAdvices of taking care: Canadian wild gingers prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nCanada Bloodroot \nAdvices of taking care: Canada bloodroots prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid overwatering to prevent rot.\nThese are a part of suggestion for indoor plants",
+          
+        "Of course! Below are the recommended indoor plants:\nCreeping Mahonia \nAdvices of taking care: Creeping mahonias prefer consistently moist soil and should be watered regularly, especially during hot and dry periods. Provide supplemental watering as needed.\nCinnamon Fern \nAdvices of taking care: Cinnamon ferns prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nCanadian Wild Ginger \nAdvices of taking care: Canadian wild gingers prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nCanada Bloodroot \nAdvices of taking care: Canada bloodroots prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid overwatering to prevent rot.\nThese are a part of suggestion for indoor plants"        
+      ]
+    },
+    {
+      "tag": "OutdoorPlant",
+      "patterns": [
+        "suggestions for outdoor plants",
+        "outdoor plant recommendations",
+        "outdoor gardening advice"
+      ],
+      "responses": [
+        "No problem! Below are the recommended outdoor plants:\nAllegheny Serviceberry\nAdvices of taking care: Water deeply and regularly, especially during hot, dry periods. Allow the soil to dry slightly between waterings.\nAmerican Beech\nAdvices of taking care: Water deeply and infrequently, allowing the soil to dry out slightly between waterings. Avoid overwatering, as beech trees are susceptible to root rot.\nAmerican Bittersweet\nAdvices of taking care: Water regularly, especially during the plant's active growth period. Allow the soil to dry slightly between waterings, but do not let it dry out completely.\nAmerican Green Alder\nAdvices of taking care: Water deeply and regularly, especially during hot, dry weather. Allow the soil to dry slightly between waterings, but do not let it dry out completely.\nAmerican Hazelnut\nAdvices of taking care: Water deeply and regularly, especially during the plant's establishment period. Once established, water whenever the top inch of soil feels dry.\nAmerican Mountain Ash\nAdvices of taking care: Water deeply and regularly, especially during hot, dry periods. Allow the soil to dry slightly between waterings to prevent waterlogging.\nThese are some suggestions for outdoor plants",
+          
+    "Definitely! Below are the recommended outdoor plants:\nAmerican Sycamore\nAdvices of taking care: Water deeply and regularly, especially during periods of drought. Keep the soil consistently moist but not waterlogged. Mulching can help retain soil moisture.\nArbutus\nAdvices of taking care: Water regularly, especially during the plant's active growth period. Allow the soil to dry slightly between waterings, but do not let it dry out completely.\nBaldhip Rose\nAdvices of taking care: Water deeply and regularly, especially during the plant's establishment period. Once established, water whenever the top inch of soil feels dry.\nBalsam Fir\nAdvices of taking care: Water regularly, especially during dry spells. Keep the soil consistently moist but not waterlogged. Mulching can help retain soil moisture.\nBalsam Poplar\nAdvices of taking care: Water deeply and regularly, especially during hot, dry periods. Allow the soil to dry slightly between waterings, but do not let it dry out completely.\nBearberry\nAdvices of taking care: Water regularly, especially during periods of drought. Keep the soil consistently moist but not waterlogged. Mulching can help retain soil moisture.\nThese are some suggestions for outdoor plants",
+          
+    "Sure! Below are the recommended outdoor plants:\nBebb Willow\nAdvices of taking care: Water deeply and regularly, especially during hot, dry periods. Allow the soil to dry slightly between waterings, but do not let it dry out completely.\nBig bluestem or Turkey foot\nAdvices of taking care: Water deeply and infrequently, allowing the soil to dry out slightly between waterings. Avoid overwatering, as these grasses are drought-tolerant once established.\nBig-leaf Maple\nAdvices of taking care: Big-leaf maples prefer consistently moist soil, especially during their active growth periods. Water deeply and regularly, ensuring the soil does not dry out completely between waterings.\nBitter Cherry\nAdvices of taking care: Bitter cherries require regular watering, especially during dry spells or periods of drought. Keep the soil consistently moist but not waterlogged.\nBlack Ash\nAdvices of taking care: Black ashes prefer consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nBlack Cherry\nAdvices of taking care: Black cherries require regular watering, especially during dry spells or periods of drought. Keep the soil consistently moist but not waterlogged.\nThese are some suggestions for outdoor plants",
+          
+    "No problem! Below are the recommended outdoor plants:\nBlack Chokeberry \nAdvices of taking care: Black chokeberries prefer consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nBlack Elderberry \nAdvices of taking care: Black elderberries require regular watering, especially during dry spells or periods of drought. Keep the soil consistently moist but not waterlogged.\nBlack Hawthorn \nAdvices of taking care: Black hawthorns prefer consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nBlack Raspberry \nAdvices of taking care: Black raspberries require regular watering, especially during dry spells or periods of drought. Keep the soil consistently moist but not waterlogged.\nBlack Spruce \nAdvices of taking care: Black spruces prefer consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nBlack Walnut \nAdvices of taking care: Black walnuts prefer consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nThese are some suggestions for outdoor plants.",
+          
+    "Definitely! Below are the recommended outdoor plants:\nBlack Willow \nAdvices of taking care: Black willows require regular watering, especially during dry spells or periods of drought. Keep the soil consistently moist but not waterlogged.\nBlack-Eyed Susan \nAdvices of taking care: Black-eyed Susans are drought-tolerant once established but benefit from regular watering, especially during prolonged dry periods.\nBlanket Flower \nAdvices of taking care: Blanket flowers are drought-tolerant once established but benefit from regular watering, especially during prolonged dry periods.\nBlue Eyed Grass \nAdvices of taking care: Blue-eyed grass prefers consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nBlue Lobelia \nAdvices of taking care: Blue lobelias require regular watering, especially during dry spells or periods of drought. Keep the soil consistently moist but not waterlogged.\nBlue Lupine \nAdvices of taking care: Blue lupines prefer well-draining soil and require regular watering, especially during dry spells or periods of drought. Avoid waterlogged conditions.\nThese are some suggestions for outdoor plants.",
+          
+    "Of course! Below are the recommended outdoor plants:\nBlue Vervain \nAdvices of taking care: Blue vervains thrive in moist to wet soil and benefit from regular watering. Ensure the soil stays consistently moist but not waterlogged.\nBog Birch \nAdvices of taking care: Bog birches prefer consistently moist to wet soil conditions and should be watered regularly to maintain moisture levels.\nBog Rosemary \nAdvices of taking care: Bog rosemary prefers consistently moist to wet soil conditions and should be watered regularly to maintain moisture levels.\nBoneset \nAdvices of taking care: Bonesets prefer consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nBottle Gentian \nAdvices of taking care: Bottle gentians prefer consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nBracken Fern \nAdvices of taking care: Bracken ferns prefer consistently moist soil and should be watered deeply and regularly, especially during periods of drought.\nThese are some suggestions for outdoor plants.",
+          
+    "Certainly! Below are the recommended outdoor plants:\nBracted Honeysuckle \nAdvices of taking care: Bracted honeysuckles prefer moderately moist soil and should be watered regularly, especially during dry spells or periods of drought.\nBroad Leaf Stonecrop \nAdvices of taking care: Broad leaf stonecrops are drought-tolerant plants but benefit from occasional watering during prolonged dry spells to maintain healthy growth.\nBroad-leaved cattail \nAdvices of taking care: Broad-leaved cattails are aquatic plants that thrive in wet soil or shallow water. Ensure the soil or growing medium remains consistently moist or submerged.\nBur Oak \nAdvices of taking care: Bur oaks prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid waterlogged conditions.\nBush Honeysuckle \nAdvices of taking care: Bush honeysuckles prefer moderately moist soil and should be watered regularly, especially during dry spells or periods of drought.\nButterfly Milkweed \nAdvices of taking care: Butterfly milkweeds prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid overwatering.\nThese are some suggestions for outdoor plants.",
+          
+    "Sure! Below are the recommended outdoor plants:\nCanada Yew \nAdvices of taking care: Canada yews prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid waterlogged conditions.\nCanadian Buffaloberry \nAdvices of taking care: Canadian buffaloberries prefer consistently moist soil and should be watered regularly, especially during dry spells or periods of drought.\nCanadian Gooseberry \nAdvices of taking care: Canadian gooseberries prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nCanadian Serviceberry \nAdvices of taking care: Canadian serviceberries prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid waterlogged conditions.\nCardinal Flower \nAdvices of taking care: Cardinal flowers prefer moist to wet soil conditions and should be watered regularly to keep the soil consistently moist, especially during hot and dry periods.\nCascara \nAdvices of taking care: Cascara trees prefer consistently moist soil and should be watered regularly, especially during dry spells or periods of drought. Avoid waterlogged conditions.\nThese are some suggestions for outdoor plants.",
+          
+    "Got it! Below are the recommended outdoor plants:\nChokecherry \nAdvices of taking care: Chokecherries prefer moist soil and should be watered regularly, especially during hot and dry periods. Ensure the soil drains well to prevent waterlogging.\nClustered Wild Rose \nAdvices of taking care: Clustered wild roses prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Provide supplemental watering as needed.\nCommon Blackberry \nAdvices of taking care: Common blackberries prefer consistently moist soil and should be watered regularly, especially during hot and dry periods. Provide supplemental watering as needed.\nCommon Evening Primrose \nAdvices of taking care: Common evening primroses prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid waterlogged conditions.\nCommon Hackberry \nAdvices of taking care: Common hackberries prefer consistently moist soil and should be watered regularly, especially during hot and dry periods. Provide supplemental watering as needed.\nCommon Hop-tree \nAdvices of taking care: Common hop-trees prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid waterlogged conditions.\nThese are some suggestions for outdoor plants.",
+          
+    "Sure, happy to help! Below are the recommended outdoor plants:\nCommon Juniper \nAdvices of taking care: Common junipers are drought-tolerant once established but benefit from occasional watering, especially during prolonged periods of drought.\nCommon Milkweed \nAdvices of taking care: Common milkweeds prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Avoid overwatering to prevent root rot.\nCommon Spicebush \nAdvices of taking care: Common spicebushes prefer consistently moist soil and should be watered regularly, especially during hot and dry periods. Provide supplemental watering as needed.\nCommon Water-Plantain \nAdvices of taking care: Common water-plantains prefer moist to wet soil conditions and should be watered regularly to keep the soil consistently moist, especially during hot and dry periods.\nCommon Wild Rose \nAdvices of taking care: Common wild roses prefer well-draining soil and benefit from regular watering, especially during dry spells or periods of drought. Provide supplemental watering as needed.\nCommon Wood Sedge \nAdvices of taking care: Common wood sedges prefer consistently moist soil and should be watered regularly to maintain soil moisture levels, especially during hot and dry periods.\nThese are some suggestions for outdoor plants."
+      ]
+    }
+  ]
+}
